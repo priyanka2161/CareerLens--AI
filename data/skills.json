@@ -1,0 +1,404 @@
+[
+  {
+    "name": "Python",
+    "category": "languages",
+    "aliases": [
+      "python"
+    ]
+  },
+  {
+    "name": "R",
+    "category": "languages",
+    "aliases": [
+      "r programming",
+      "r language",
+      "r"
+    ]
+  },
+  {
+    "name": "SQL",
+    "category": "languages",
+    "aliases": [
+      "sql",
+      "structured query language"
+    ]
+  },
+  {
+    "name": "Java",
+    "category": "languages",
+    "aliases": [
+      "java"
+    ]
+  },
+  {
+    "name": "JavaScript",
+    "category": "languages",
+    "aliases": [
+      "javascript",
+      "js"
+    ]
+  },
+  {
+    "name": "TypeScript",
+    "category": "languages",
+    "aliases": [
+      "typescript",
+      "ts"
+    ]
+  },
+  {
+    "name": "C++",
+    "category": "languages",
+    "aliases": [
+      "c++"
+    ]
+  },
+  {
+    "name": "Pandas",
+    "category": "frameworks",
+    "aliases": [
+      "pandas"
+    ]
+  },
+  {
+    "name": "NumPy",
+    "category": "frameworks",
+    "aliases": [
+      "numpy"
+    ]
+  },
+  {
+    "name": "scikit-learn",
+    "category": "ml",
+    "aliases": [
+      "scikit-learn",
+      "scikit learn",
+      "sklearn"
+    ]
+  },
+  {
+    "name": "TensorFlow",
+    "category": "ml",
+    "aliases": [
+      "tensorflow",
+      "tf"
+    ]
+  },
+  {
+    "name": "PyTorch",
+    "category": "ml",
+    "aliases": [
+      "pytorch",
+      "torch"
+    ]
+  },
+  {
+    "name": "Keras",
+    "category": "ml",
+    "aliases": [
+      "keras"
+    ]
+  },
+  {
+    "name": "XGBoost",
+    "category": "ml",
+    "aliases": [
+      "xgboost"
+    ]
+  },
+  {
+    "name": "Machine Learning",
+    "category": "ml",
+    "aliases": [
+      "machine learning",
+      "machine-learning",
+      "ml",
+      "predictive modeling",
+      "predictive models"
+    ]
+  },
+  {
+    "name": "Deep Learning",
+    "category": "ml",
+    "aliases": [
+      "deep learning",
+      "deep-learning"
+    ]
+  },
+  {
+    "name": "NLP",
+    "category": "ml",
+    "aliases": [
+      "nlp",
+      "natural language processing"
+    ]
+  },
+  {
+    "name": "Computer Vision",
+    "category": "ml",
+    "aliases": [
+      "computer vision"
+    ]
+  },
+  {
+    "name": "Statistics",
+    "category": "methods",
+    "aliases": [
+      "statistics",
+      "statistical analysis",
+      "statistical modeling"
+    ]
+  },
+  {
+    "name": "A/B Testing",
+    "category": "methods",
+    "aliases": [
+      "a/b testing",
+      "ab testing",
+      "experimentation"
+    ]
+  },
+  {
+    "name": "Time Series",
+    "category": "methods",
+    "aliases": [
+      "time series",
+      "forecasting"
+    ]
+  },
+  {
+    "name": "Feature Engineering",
+    "category": "methods",
+    "aliases": [
+      "feature engineering"
+    ]
+  },
+  {
+    "name": "Data Visualization",
+    "category": "methods",
+    "aliases": [
+      "data visualization",
+      "data visualisation"
+    ]
+  },
+  {
+    "name": "PostgreSQL",
+    "category": "databases",
+    "aliases": [
+      "postgresql",
+      "postgres"
+    ]
+  },
+  {
+    "name": "MySQL",
+    "category": "databases",
+    "aliases": [
+      "mysql"
+    ]
+  },
+  {
+    "name": "MongoDB",
+    "category": "databases",
+    "aliases": [
+      "mongodb"
+    ]
+  },
+  {
+    "name": "Redis",
+    "category": "databases",
+    "aliases": [
+      "redis"
+    ]
+  },
+  {
+    "name": "Snowflake",
+    "category": "databases",
+    "aliases": [
+      "snowflake"
+    ]
+  },
+  {
+    "name": "BigQuery",
+    "category": "databases",
+    "aliases": [
+      "bigquery"
+    ]
+  },
+  {
+    "name": "AWS",
+    "category": "cloud",
+    "aliases": [
+      "aws",
+      "amazon web services"
+    ]
+  },
+  {
+    "name": "Azure",
+    "category": "cloud",
+    "aliases": [
+      "azure",
+      "microsoft azure"
+    ]
+  },
+  {
+    "name": "GCP",
+    "category": "cloud",
+    "aliases": [
+      "gcp",
+      "google cloud",
+      "google cloud platform"
+    ]
+  },
+  {
+    "name": "Docker",
+    "category": "tools",
+    "aliases": [
+      "docker",
+      "containerization"
+    ]
+  },
+  {
+    "name": "Kubernetes",
+    "category": "tools",
+    "aliases": [
+      "kubernetes",
+      "k8s"
+    ]
+  },
+  {
+    "name": "Git",
+    "category": "tools",
+    "aliases": [
+      "git",
+      "version control"
+    ]
+  },
+  {
+    "name": "MLflow",
+    "category": "tools",
+    "aliases": [
+      "mlflow"
+    ]
+  },
+  {
+    "name": "Airflow",
+    "category": "tools",
+    "aliases": [
+      "airflow",
+      "apache airflow"
+    ]
+  },
+  {
+    "name": "Spark",
+    "category": "frameworks",
+    "aliases": [
+      "spark",
+      "apache spark",
+      "pyspark"
+    ]
+  },
+  {
+    "name": "Hadoop",
+    "category": "tools",
+    "aliases": [
+      "hadoop"
+    ]
+  },
+  {
+    "name": "Power BI",
+    "category": "tools",
+    "aliases": [
+      "power bi",
+      "powerbi"
+    ]
+  },
+  {
+    "name": "Tableau",
+    "category": "tools",
+    "aliases": [
+      "tableau"
+    ]
+  },
+  {
+    "name": "Excel",
+    "category": "tools",
+    "aliases": [
+      "excel",
+      "microsoft excel"
+    ]
+  },
+  {
+    "name": "FastAPI",
+    "category": "frameworks",
+    "aliases": [
+      "fastapi"
+    ]
+  },
+  {
+    "name": "Flask",
+    "category": "frameworks",
+    "aliases": [
+      "flask"
+    ]
+  },
+  {
+    "name": "React",
+    "category": "frameworks",
+    "aliases": [
+      "react",
+      "reactjs"
+    ]
+  },
+  {
+    "name": "dbt",
+    "category": "tools",
+    "aliases": [
+      "dbt"
+    ]
+  },
+  {
+    "name": "ETL",
+    "category": "methods",
+    "aliases": [
+      "etl",
+      "extract transform load",
+      "data pipelines"
+    ]
+  },
+  {
+    "name": "MLOps",
+    "category": "methods",
+    "aliases": [
+      "mlops",
+      "model deployment",
+      "deploying models"
+    ]
+  },
+  {
+    "name": "LLMs",
+    "category": "ml",
+    "aliases": [
+      "llm",
+      "llms",
+      "large language models"
+    ]
+  },
+  {
+    "name": "RAG",
+    "category": "ml",
+    "aliases": [
+      "rag",
+      "retrieval augmented generation",
+      "retrieval-augmented generation"
+    ]
+  },
+  {
+    "name": "Communication",
+    "category": "methods",
+    "aliases": [
+      "communication",
+      "communicate",
+      "stakeholder communication"
+    ]
+  }
+]

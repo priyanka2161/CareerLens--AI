@@ -1,0 +1,35 @@
+{
+  "backend": "minilm",
+  "database": "isolated SQLite smoke, not PostgreSQL runtime",
+  "postings_ranked": 18,
+  "learning_skills": 31,
+  "top_jobs": [
+    {
+      "title": "Junior Data Scientist",
+      "score": 76.7,
+      "coverage": 100
+    },
+    {
+      "title": "Data Scientist",
+      "score": 74.2,
+      "coverage": 100
+    },
+    {
+      "title": "Forecasting Scientist",
+      "score": 66.5,
+      "coverage": 80
+    },
+    {
+      "title": "Data Analyst",
+      "score": 60.3,
+      "coverage": 80
+    },
+    {
+      "title": "Product Data Scientist",
+      "score": 55.6,
+      "coverage": 100
+    }
+  ],
+  "elapsed_seconds": 29.63,
+  "data": "fictional samples; no accuracy claim"
+}

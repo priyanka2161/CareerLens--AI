@@ -1,0 +1,95 @@
+{
+  "purpose": "Provisional smoke fixtures; NOT scientific evaluation",
+  "count": 9,
+  "threshold": 60,
+  "precision": 1.0,
+  "recall": 0.6666666666666666,
+  "ndcg_at_3": 1.0,
+  "clipped_cosine_quantiles": {
+    "min": 0.078,
+    "p25": 0.196,
+    "median": 0.278,
+    "p75": 0.40299999999999997,
+    "max": 0.736
+  },
+  "false_positives": [],
+  "false_negatives": [
+    {
+      "profile_id": "backend",
+      "job_id": "demo-18",
+      "label": 3,
+      "score": 59.4,
+      "semantic": 43.8
+    }
+  ],
+  "pairs": [
+    {
+      "profile_id": "ds",
+      "job_id": "demo-01",
+      "label": 3,
+      "score": 60.2,
+      "semantic": 40.3
+    },
+    {
+      "profile_id": "ds",
+      "job_id": "demo-03",
+      "label": 1,
+      "score": 22.0,
+      "semantic": 13.0
+    },
+    {
+      "profile_id": "ds",
+      "job_id": "demo-18",
+      "label": 0,
+      "score": 5.2,
+      "semantic": 7.8
+    },
+    {
+      "profile_id": "analyst",
+      "job_id": "demo-01",
+      "label": 1,
+      "score": 24.3,
+      "semantic": 31.9
+    },
+    {
+      "profile_id": "analyst",
+      "job_id": "demo-03",
+      "label": 3,
+      "score": 76.8,
+      "semantic": 73.6
+    },
+    {
+      "profile_id": "analyst",
+      "job_id": "demo-18",
+      "label": 0,
+      "score": 13.9,
+      "semantic": 27.8
+    },
+    {
+      "profile_id": "backend",
+      "job_id": "demo-01",
+      "label": 0,
+      "score": 9.8,
+      "semantic": 19.6
+    },
+    {
+      "profile_id": "backend",
+      "job_id": "demo-03",
+      "label": 0,
+      "score": 10.7,
+      "semantic": 21.4
+    },
+    {
+      "profile_id": "backend",
+      "job_id": "demo-18",
+      "label": 3,
+      "score": 59.4,
+      "semantic": 43.8
+    }
+  ],
+  "limitations": [
+    "Tiny authored corpus, correlated templates, no held-out population estimate.",
+    "LSA is trained on the sample catalog: optimistic in-catalog behavior is expected.",
+    "Threshold is illustrative. Tune on validation data, never on the test set."
+  ]
+}

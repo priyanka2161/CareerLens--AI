@@ -1,0 +1,45 @@
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: careerlens
+      POSTGRES_DB: careerlens
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U careerlens -d careerlens"]
+      interval: 5s
+      timeout: 5s
+      retries: 15
+  backend:
+    build: .
+    environment:
+      DATABASE_URL: postgresql+psycopg://careerlens:${POSTGRES_PASSWORD}@db:5432/careerlens
+      EMBEDDING_BACKEND: ${EMBEDDING_BACKEND:-minilm}
+      MODEL_NAME: sentence-transformers/all-MiniLM-L6-v2
+      MODEL_REVISION: c9745ed1d9f207416be6d2e6f8de32d1f16199bf
+      CORS_ORIGINS: http://localhost:3000
+      API_ROOT_PATH: /api
+      AUTO_CREATE_SCHEMA: 'true'
+    command: ["sh", "-c", "python scripts/seed.py && python -m uvicorn app.main:app --app-dir backend --host 0.0.0.0 --port 8000 --limit-concurrency 16"]
+    volumes:
+      - model_cache:/home/app/.cache/huggingface
+    depends_on:
+      db:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+  frontend:
+    build: ./frontend
+    ports:
+      - '127.0.0.1:3000:80'
+    depends_on:
+      backend:
+        condition: service_healthy
+volumes:
+  postgres_data:
+  model_cache:

@@ -1,0 +1,17 @@
+Alex Morgan
+alex@example.invalid
+Summary
+Data scientist with 2 years of professional experience building predictive models.
+Skills
+Python, SQL, Pandas, scikit-learn, Statistics, Git, Power BI
+Experience
+Data Analyst | Sample Analytics | Jan 2023 - Dec 2024
+Analyzed sales data using SQL and developed reporting dashboards in Power BI.
+Projects
+Built predictive models using scikit-learn and Pandas to forecast customer churn.
+Evaluated models using precision, recall and cross validation.
+Education
+Bachelor of Technology in Computer Science
+Example University
+Certifications
+Example Data Analytics Certificate

@@ -1,0 +1,92 @@
+[
+  {
+    "profile_id": "ds",
+    "job_id": "demo-01",
+    "resume_text": "Skills\nPython, SQL, Pandas, scikit-learn, Statistics\nProjects\nBuilt predictive models using scikit-learn.",
+    "job_text": "Data Scientist\nRequired skills: Python, SQL, Pandas, scikit-learn, Statistics.\nMinimum 2 years experience. Bachelor degree required.\nResponsibilities: Build predictive models, design experiments, explain findings to stakeholders.\nPreferred: AWS, Docker, MLflow.",
+    "human_relevance": null,
+    "provisional_rubric_label": 3,
+    "label_source": "authored test expectation; not human annotation",
+    "split": "smoke"
+  },
+  {
+    "profile_id": "ds",
+    "job_id": "demo-03",
+    "resume_text": "Skills\nPython, SQL, Pandas, scikit-learn, Statistics\nProjects\nBuilt predictive models using scikit-learn.",
+    "job_text": "Data Analyst\nRequired: SQL, Excel, Power BI, Statistics, Communication.\nMinimum 1 year experience.\nResponsibilities: Analyze sales data, build dashboards and present business insights.\nPreferred: Python, Pandas.",
+    "human_relevance": null,
+    "provisional_rubric_label": 1,
+    "label_source": "authored test expectation; not human annotation",
+    "split": "smoke"
+  },
+  {
+    "profile_id": "ds",
+    "job_id": "demo-18",
+    "resume_text": "Skills\nPython, SQL, Pandas, scikit-learn, Statistics\nProjects\nBuilt predictive models using scikit-learn.",
+    "job_text": "Backend Engineer\nRequired: Java, PostgreSQL, Docker, Git.\nMinimum 2 years experience.\nResponsibilities: Develop REST services, optimize databases and maintain reliable APIs.\nPreferred: Kubernetes, Redis.",
+    "human_relevance": null,
+    "provisional_rubric_label": 0,
+    "label_source": "authored test expectation; not human annotation",
+    "split": "smoke"
+  },
+  {
+    "profile_id": "analyst",
+    "job_id": "demo-01",
+    "resume_text": "Skills\nSQL, Excel, Power BI, Communication\nExperience\nAnalyzed sales reports and built dashboards.",
+    "job_text": "Data Scientist\nRequired skills: Python, SQL, Pandas, scikit-learn, Statistics.\nMinimum 2 years experience. Bachelor degree required.\nResponsibilities: Build predictive models, design experiments, explain findings to stakeholders.\nPreferred: AWS, Docker, MLflow.",
+    "human_relevance": null,
+    "provisional_rubric_label": 1,
+    "label_source": "authored test expectation; not human annotation",
+    "split": "smoke"
+  },
+  {
+    "profile_id": "analyst",
+    "job_id": "demo-03",
+    "resume_text": "Skills\nSQL, Excel, Power BI, Communication\nExperience\nAnalyzed sales reports and built dashboards.",
+    "job_text": "Data Analyst\nRequired: SQL, Excel, Power BI, Statistics, Communication.\nMinimum 1 year experience.\nResponsibilities: Analyze sales data, build dashboards and present business insights.\nPreferred: Python, Pandas.",
+    "human_relevance": null,
+    "provisional_rubric_label": 3,
+    "label_source": "authored test expectation; not human annotation",
+    "split": "smoke"
+  },
+  {
+    "profile_id": "analyst",
+    "job_id": "demo-18",
+    "resume_text": "Skills\nSQL, Excel, Power BI, Communication\nExperience\nAnalyzed sales reports and built dashboards.",
+    "job_text": "Backend Engineer\nRequired: Java, PostgreSQL, Docker, Git.\nMinimum 2 years experience.\nResponsibilities: Develop REST services, optimize databases and maintain reliable APIs.\nPreferred: Kubernetes, Redis.",
+    "human_relevance": null,
+    "provisional_rubric_label": 0,
+    "label_source": "authored test expectation; not human annotation",
+    "split": "smoke"
+  },
+  {
+    "profile_id": "backend",
+    "job_id": "demo-01",
+    "resume_text": "Skills\nJava, PostgreSQL, Docker, Redis\nExperience\nDeveloped backend payment APIs.",
+    "job_text": "Data Scientist\nRequired skills: Python, SQL, Pandas, scikit-learn, Statistics.\nMinimum 2 years experience. Bachelor degree required.\nResponsibilities: Build predictive models, design experiments, explain findings to stakeholders.\nPreferred: AWS, Docker, MLflow.",
+    "human_relevance": null,
+    "provisional_rubric_label": 0,
+    "label_source": "authored test expectation; not human annotation",
+    "split": "smoke"
+  },
+  {
+    "profile_id": "backend",
+    "job_id": "demo-03",
+    "resume_text": "Skills\nJava, PostgreSQL, Docker, Redis\nExperience\nDeveloped backend payment APIs.",
+    "job_text": "Data Analyst\nRequired: SQL, Excel, Power BI, Statistics, Communication.\nMinimum 1 year experience.\nResponsibilities: Analyze sales data, build dashboards and present business insights.\nPreferred: Python, Pandas.",
+    "human_relevance": null,
+    "provisional_rubric_label": 0,
+    "label_source": "authored test expectation; not human annotation",
+    "split": "smoke"
+  },
+  {
+    "profile_id": "backend",
+    "job_id": "demo-18",
+    "resume_text": "Skills\nJava, PostgreSQL, Docker, Redis\nExperience\nDeveloped backend payment APIs.",
+    "job_text": "Backend Engineer\nRequired: Java, PostgreSQL, Docker, Git.\nMinimum 2 years experience.\nResponsibilities: Develop REST services, optimize databases and maintain reliable APIs.\nPreferred: Kubernetes, Redis.",
+    "human_relevance": null,
+    "provisional_rubric_label": 3,
+    "label_source": "authored test expectation; not human annotation",
+    "split": "smoke"
+  }
+]
